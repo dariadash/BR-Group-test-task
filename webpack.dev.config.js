@@ -14,10 +14,11 @@ module.exports = merge(baseConfig, {
         proxy: {
             // Настройка прокси
             "/api": {
-                target: `http://${process.env.BACKEND_DOMAIN}`,
+                target: `https://${process.env.BACKEND_DOMAIN}`,
                 changeOrigin: true,
                 cookieDomainRewrite: { [process.env.BACKEND_DOMAIN]: "localhost" },
                 withCredentials: true,
+                pathRewrite: { '^/api': '' },
             }
         },
     },

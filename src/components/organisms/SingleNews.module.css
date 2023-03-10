@@ -1,0 +1,25 @@
+.list_item {
+    padding: 20px 12px;
+    background-color: #fdf2ed;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.author_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.author {
+    font-weight: bold;
+    margin: 0;
+}
+
+.date {
+    font-size: 14px;
+    margin: 0;
+}

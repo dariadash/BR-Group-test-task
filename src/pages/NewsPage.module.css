@@ -1,0 +1,15 @@
+.page_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 40px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 1200px;
+    gap: 20px;
+}

@@ -12,6 +12,15 @@
     "baseUrl": ".",
     "strictPropertyInitialization": true,
     "skipLibCheck": true,
+    "esModuleInterop": true,
+    "typeRoots": [
+      "./global"
+    ],
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules",
+      }
+    ],
     "paths": {
       "@/*": [
         "./src/*"

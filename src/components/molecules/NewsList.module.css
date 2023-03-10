@@ -1,0 +1,17 @@
+.list_item {
+    padding: 16px 40px;
+    background-color: #ffe9de;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.list_item:nth-child(even) {
+    background: #fdf2ed;
+}
+
+.list_wrapper {
+    display: flex;
+    flex-direction: column;
+}

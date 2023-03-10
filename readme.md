@@ -1,6 +1,6 @@
 # React Boilerplate 
 
-В данном бойлерплейте установлен и настроен webpack для продакшн, дев окружения. Стек React/Redux(toolkit)/TS.
+В данном приложении установлен и настроен webpack для продакшн, дев окружения. Стек React/Redux(toolkit)/TS.
 
 ## Используемые пакеты
 
@@ -9,9 +9,10 @@
 - Typescript 
 - Webpack 5
 - Babel  
-- StyledComponents 
 
 ## Запуск dev среды 
+
+Перед первым запуском проекта создать файл .env и настроить его по примеру из .env.example
 
 npm start
 

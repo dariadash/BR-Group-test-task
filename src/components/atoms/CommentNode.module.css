@@ -1,0 +1,30 @@
+.comment_wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #fdf2ed;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+.comment_header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.author {
+    font-weight: bold;
+    margin: 0;
+}
+
+.date {
+    font-size: 14px;
+    margin: 0;
+}
+
+.text {
+    width: 100%;
+    display: inline-block;
+    overflow: auto;
+}

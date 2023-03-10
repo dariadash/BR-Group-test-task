@@ -1,9 +1,12 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit'
-import initReducer from './initSlice'
+import news from './news/slice'
+import comments from './comment/slice'
 
 const rootReducer = combineReducers({
-    initReducer,
+    news,
+    comments
 })
+
 
 export const setupStore = () => {
     return configureStore({
